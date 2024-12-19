@@ -1,0 +1,9 @@
+/* Show the dropdown menu when the parent div is hovered */
+.relative:hover > .absolute {
+    display: block;
+}
+
+/* Hide the dropdown menu when the cursor moves away from both the parent div and the dropdown menu */
+.absolute:hover {
+    display: none;
+}
